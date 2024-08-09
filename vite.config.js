@@ -5,5 +5,5 @@ import ghPages from 'vite-plugin-gh-pages';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), ghPages()],
-  base: '/Portfolio/',  // Replace with your repo name if deploying to a project page
+  base: '/',  // Replace with your repo name if deploying to a project page
 })
