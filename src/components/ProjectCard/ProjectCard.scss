@@ -1,7 +1,9 @@
+$color1: #6751b9;
+
 .project-card {
     background:  #130f2a;
     border-radius: 0.65rem;
-    border: 1.5px solid #6751b9;
+    border: 1.5px solid $color1;
     padding: 1.5rem;
     margin: 0 1rem;
 }
@@ -25,12 +27,12 @@
     padding: 0.4rem 0.6rem;
     margin-bottom: 1.3rem;
     color: white;
-}
 
-.project-link:hover {
-    background: #ac96ff;
-    transform: translateX(-2px);
-    box-shadow: 0px 0px 20px rgba(170, 63, 241, 0.3);
+    &:hover {
+        background: #ac96ff;
+        transform: translateX(-2px);
+        box-shadow: 0px 0px 20px rgba(170, 63, 241, 0.3);
+    }
 }
 
 .project-card ul li {
@@ -39,17 +41,17 @@
     font-weight: 400;
     margin-bottom: 0.5rem;
     position: relative;
-}
 
-.project-card ul li:after {
-    content: " ";
-    width: 0.5rem;
-    height: 0.5rem;
-    background-color: #6751b9;
-    position: absolute;
-    border-radius: 0.5rem;
-    top: 0.35rem;
-    left: -1.3rem;
+    &::after {
+        content: " ";
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: $color1;
+        position: absolute;
+        border-radius: 0.5rem;
+        top: 0.35rem;
+        left: -1.3rem;
+    }
 }
 
 @media screen and (max-width: 768px) {

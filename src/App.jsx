@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 // App.js
-import React from 'react';
+import React, {useRef} from 'react';
 import './App.scss';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
@@ -9,7 +10,26 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { Element } from 'react-scroll';
-import { motion, useScroll, useSpring } from "framer-motion";
+import { motion, useScroll, useSpring, useInView } from "framer-motion";
+
+function Section({ children }) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: false });
+
+  return (
+    <section ref={ref}>
+      <span
+        style={{
+          transform: isInView ? "none" : "translateX(-200px)",
+          opacity: isInView ? 1 : 0,
+          transition: "all 0.7s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+        }}
+      >
+        {children}
+      </span>
+    </section>
+  );
+}
 
 function App() {
 
@@ -27,18 +47,27 @@ function App() {
       </div>
       <motion.div className="progress-bar" style={{ scaleX }} />
       <div className="container">
-        <Element name="hero">
-          <Hero/>
-        </Element>
-        <Element name="skills">
-          <Skills/>
-        </Element>
-        <Element name="projects">
-          <Projects/>
-        </Element>
-        <Element name="contact">
-          <Contact/>
-        </Element>
+        <Section>
+          <Element name="hero">
+            <Hero/>
+          </Element>
+        </Section>
+        <br/><br/>
+        <Section>
+          <Element name="skills">
+            <Skills/>
+          </Element>
+        </Section>
+        <Section>
+          <Element name="projects">
+            <Projects/>
+          </Element>
+        </Section>
+        <Section>
+          <Element name="contact">
+            <Contact/>
+          </Element>
+        </Section>
       </div>
       <Footer/>
     </>

@@ -9,9 +9,11 @@
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease;
-    // width: 400px;
-    // height: 150px;
     align-content: center;
+
+    &:hover, &:active {
+        background: linear-gradient(180deg, #aa94fe 0%, #7c5fe6 100%);
+    }
 }
 
 .skillImg {
@@ -20,10 +22,6 @@
     height: auto;
     object-fit: contain;
     color: #a188ff;
-}
-
-.skills-card:hover, .skills-card:active {
-    background: linear-gradient(180deg, #aa94fe 0%, #7c5fe6 100%);
 }
 
 .skills-card span {

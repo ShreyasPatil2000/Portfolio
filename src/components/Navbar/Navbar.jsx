@@ -32,21 +32,21 @@ const Navbar = () => {
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
       <nav className='nav-wrapper'>
         <div className="nav-content">
-            <a href="/">
+            <a href="/Portfolio/">
                 <img src={logo} className='logo' alt="logo" />
             </a>
             <ul>
                 <li>
-                  <Link to="hero" smooth={true} duration={500} className="menu-item" title='Home'>Home</Link>
+                  <Link to="hero" smooth={true} duration={500} className="menu-item" title='Home' offset={-100}>Home</Link>
                 </li>
                 <li>
-                  <Link to="skills" smooth={true} duration={500} className="menu-item" title='skills' >Skills</Link>
+                  <Link to="skills" smooth={true} duration={500} className="menu-item" title='skills' offset={-120}>Skills</Link>
                 </li>
                 <li>
-                  <Link to="projects" smooth={true} duration={500} className="menu-item" title='projects'>Projects</Link>
+                  <Link to="projects" smooth={true} duration={500} className="menu-item" title='projects' offset={-120}>Projects</Link>
                 </li>
                 <li>
-                  <Link to="contact" smooth={true} duration={500} className="menu-item" title='contact'>Contact</Link>
+                  <Link to="contact" smooth={true} duration={500} className="menu-item" title='contact' offset={-120}>Contact</Link>
                 </li>
                 <button className="download-btn" onClick={handleDownload}>
                   <FaDownload size={12}/> &nbsp;Resume

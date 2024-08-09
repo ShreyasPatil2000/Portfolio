@@ -1,3 +1,8 @@
+$color1: #a993fe;
+$color2: #7e61e7;
+$white: #fff;
+$black: #000;
+
 .nav-wrapper {
     background: rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0;
@@ -39,28 +44,28 @@
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: 500;
-    color: #fff;
+    color: $white;
     position: relative;
     cursor: pointer;
-}
 
-.menu-item::before {
-    content: " ";
-    width: 2rem;
-    height: 0.2rem;
-    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
-    border-radius: 0.5rem;
-    position: absolute;
-    bottom: -0.6rem;
-    opacity: 0;
-    transform: translateX(-1.5rem);
-    transition: all 0.3s ease;
-}
+    &::before {
+        content: " ";
+        width: 2rem;
+        height: 0.2rem;
+        background: linear-gradient(90deg, $color1 0%, $color2 100%);
+        border-radius: 0.5rem;
+        position: absolute;
+        bottom: -0.6rem;
+        opacity: 0;
+        transform: translateX(-1.5rem);
+        transition: all 0.3s ease;
+    }
 
-.menu-item:hover::before {
-    width: 100%;
-    transform: translateX(0);
-    opacity: 1;
+    &:hover::before {
+        width: 100%;
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .download-btn {
@@ -69,20 +74,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
-    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    color: $white;
+    background: linear-gradient(90deg, $color1 0%, $color2 100%);
     padding: 0.6rem 2rem;
     border: none;
     outline: 1.5px solid transparent;
     border-radius: 0.2rem;
     cursor: pointer;
     transition: all 0.3s ease;
-}
 
-.download-btn:hover {
-    color: #a993fe;
-    background: #000;
-    outline: 1.5px solid #a993fe;
+    &:hover {
+        color: $color1;
+        background: $black;
+        outline: 1.5px solid $color1;
+    }
 }
 
 .menu-btn {
@@ -94,18 +99,18 @@
     justify-content: center;
     border: none;
     border-radius: 0.4rem;
-    color: #fff;
-    background: linear-gradient(90deg, #a993fe -0.13%, #7e61e7 99.87%);
+    color: $white;
+    background: linear-gradient(90deg, $color1 -0.13%, $color2 99.87%);
     line-height: 0;
     cursor: pointer;
     transition: all 0.4s ease;
     display: none;
-}
 
-.menu-btn:hover {
-    color: #a993fe;
-    background: #000;
-    border: 1px solid #a993fe;
+    &:hover {
+        color: $color1;
+        background: $black;
+        border: 1px solid $color1;
+    }
 }
 
 @media screen and (max-width: 425px) {

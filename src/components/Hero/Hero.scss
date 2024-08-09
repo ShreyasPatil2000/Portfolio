@@ -1,6 +1,8 @@
 // background: #0f0c29;  /* fallback for old browsers */
 // background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
 // background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+$shadow_color: rgba(0,0,0,0.5);
+
 .icon.html {
     color: #e34c26; /* HTML5 color */
   }
@@ -32,28 +34,26 @@
     display: flex;
     align-items: center;
     position: relative;
-}
 
-.hero-container::after, 
-.hero-container::before {
-    content: " ";
-    width: 28.125rem;
-    height: 28.125rem;
-    border-radius: 28.125rem;
-    background: #7c66e3;
-    position: absolute;
-    z-index: -1;
-    filter: blur(180px);
-}
+    &::after, &::before {
+        content: " ";
+        width: 28.125rem;
+        height: 28.125rem;
+        border-radius: 28.125rem;
+        background: #7c66e3;
+        position: absolute;
+        z-index: -1;
+        filter: blur(180px);
+    }
 
-.hero-container::after {
-    top: -3rem;
-    left: -5rem;
-}
-
-.hero-container::before {
-    bottom: 2rem;
-    left: 50rem;
+    &::after {
+        top: -3rem;
+        left: -5rem;
+    }
+    &::before {
+        bottom: 2rem;
+        left: 50rem;
+    }
 }
 
 .hero-content {
@@ -118,13 +118,13 @@
   
 @keyframes shadowPulse {
     0% {
-        box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
+        box-shadow: 0 0 10px 0px $shadow_color;
     }
     50% {
-        box-shadow: 0 0 20px 10px rgba(0,0,0,0.5);
+        box-shadow: 0 0 20px 10px $shadow_color;
     }
     100% {
-        box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
+        box-shadow: 0 0 10px 0px $shadow_color;
     }
 }
 

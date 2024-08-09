@@ -19,6 +19,14 @@
     border-radius: 0.5rem;
     background: #3d3072;
     margin-bottom: 0.8rem;
+
+    &:hover {
+        background: #5339bc;
+        .contact-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
 }
 
 .contact-icon {
@@ -26,14 +34,6 @@
     height: auto;
     object-fit: contain;
     transition: all 0.3s ease;
-}
-
-.contact-details-card .icon:hover {
-    background: #5339bc;
-    .contact-icon {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
 }
 
 .contact-link {

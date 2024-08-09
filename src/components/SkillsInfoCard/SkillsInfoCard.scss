@@ -1,7 +1,9 @@
+$color1: #6751b9;
+
 .skills-info-card {
     min-height: 23rem;
     border-radius: 0.65rem;
-    border: 1.5px solid #6751b9;
+    border: 1.5px solid $color1;
     background: rgba(22, 17, 47, 0.398);
     backdrop-filter: blur(1rem);
 }
@@ -14,7 +16,7 @@
     background-clip: text;
     --webkit-background-clip: text;
     --webkit-text-fill-color: transparent;
-    border-bottom: 1.5px solid #6751b9;
+    border-bottom: 1.5px solid $color1;
 }
 
 .skills-info-content {

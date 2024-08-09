@@ -16,11 +16,11 @@
 
 .footer-icon {
     transition: all 0.3s ease;
-}
 
-.footer-icon:hover {
-    width: 1.5rem;
-    height: 1.5rem;
+    &:hover {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }
 
 .go-up {

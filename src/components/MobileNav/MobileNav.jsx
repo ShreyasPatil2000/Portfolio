@@ -27,27 +27,27 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
       onClick={toggleMenu}
     >
       <div className="mobile-menu-container" onClick={(e) => e.stopPropagation()}>
-        <a href="/">
+        <a href="/Portfolio/">
           <img src={logo} className='logo' alt="logo" />
         </a>
         <ul>
           <li>
-            <Link to="hero" smooth={true} duration={500} className="menu-item" onClick={toggleMenu} title='home'>
+            <Link to="hero" smooth={true} duration={500} className="menu-item" onClick={toggleMenu} title='home' offset={-100}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={500} className="menu-item" onClick={toggleMenu} title='skills'>
+            <Link to="skills" smooth={true} duration={500} className="menu-item" onClick={toggleMenu} title='skills' offset={-120}>
               Skills
             </Link>
           </li>
           <li>
-            <Link to="projects" smooth={true} duration={500} className="menu-item" onClick={toggleMenu} title='projects'>
+            <Link to="projects" smooth={true} duration={500} className="menu-item" onClick={toggleMenu} title='projects' offset={-120}>
               Projects
             </Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500} className="menu-item" onClick={toggleMenu} title='contact'>
+            <Link to="contact" smooth={true} duration={500} className="menu-item" onClick={toggleMenu} title='contact' offset={-120}>
               Contact
             </Link>
           </li>
