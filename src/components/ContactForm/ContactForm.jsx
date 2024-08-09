@@ -48,6 +48,7 @@ const ContactForm = () => {
     emailjs.send(serviceID, templateID, templateParams, publicKey)
       .then((response) => {
         console.log('Email sent Successfully! ', response);
+        window.alert('Email sent successfully!');
         setFirstName('');
         setLastName('');
         setEmail('');
@@ -55,6 +56,7 @@ const ContactForm = () => {
       })
       .catch((error) => {
         console.error('Error sending email: ', error);
+        window.alert('Error sending email. Please try again.');
       });
   };
 
