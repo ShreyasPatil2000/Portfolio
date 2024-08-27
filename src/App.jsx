@@ -11,6 +11,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { Element } from 'react-scroll';
 import { motion, useScroll, useSpring, useInView } from "framer-motion";
+import UpButton from './components/UpButton/UpButton';
 
 function Section({ children }) {
   const ref = useRef(null);
@@ -69,6 +70,7 @@ function App() {
           </Element>
         </Section>
       </div>
+      <UpButton/>
       <Footer/>
     </>
   );

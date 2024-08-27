@@ -14,7 +14,7 @@ const Contact = () => {
             <ContactCard
               icon={FaEnvelope}
               text="shreyas.patil20000@gmail.com"
-              link={null} // No link for email
+              link="mailto:shreyas.patil20000@gmail.com" // No link for email
             />
           </div>
           <div style={{flex: 1}}>

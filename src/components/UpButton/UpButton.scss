@@ -1,0 +1,29 @@
+.start-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  
+    .up-button {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    
+    :hover {
+      background: #4A00E0;
+      .up-button {
+        width: 1.8rem;
+        height: 1.8rem;
+      }
+    }
+  }
+  
+.go-up {
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    background: #8064e8;
+    height: 50px;
+    border: 2px solid white;
+}
+  

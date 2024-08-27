@@ -64,10 +64,10 @@ const ContactForm = () => {
     <div className="contact-form-content">
       <form onSubmit={handleSubmit}>
         <div className="name-container">
-          <input type="text" name='firstname' placeholder='First Name' value={firstName} title='First Name' onChange={(e) => setFirstName(e.target.value)} />
-          <input type="text" name='lastname' placeholder='Last Name' value={lastName} title='Last Name' onChange={(e) => setLastName(e.target.value)} />
+          <input type="text" name='firstname' placeholder='First Name' value={firstName} title='First Name' onChange={(e) => setFirstName(e.target.value)} required/>
+          <input type="text" name='lastname' placeholder='Last Name' value={lastName} title='Last Name' onChange={(e) => setLastName(e.target.value)} required/>
         </div>
-        <input type="text" name='email' placeholder='Email' value={email} title='Email' onChange={(e) => setEmail(e.target.value)} />
+        <input type="text" name='email' placeholder='Email' value={email} title='Email' onChange={(e) => setEmail(e.target.value)} required/>
         <textarea
           type='text'
           name="message"
@@ -78,6 +78,7 @@ const ContactForm = () => {
           value={message}
           ref={textareaRef}
           onChange={handleTextareaChange}
+          required
         ></textarea>
         <button type='submit'>SEND</button>
       </form>
