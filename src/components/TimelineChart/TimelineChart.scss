@@ -1,0 +1,19 @@
+.timeline-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.timeline-link {
+  text-decoration: none;
+  margin-top: 0.25rem;
+  margin-left: 0.4rem;
+
+  :hover {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+
+.timeline-date {
+  color: white;
+}

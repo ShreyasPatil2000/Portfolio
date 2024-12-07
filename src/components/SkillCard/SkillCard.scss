@@ -1,79 +1,80 @@
 .skills-card {
-    border-radius: 0.65rem;
-    border: 1.5px solid #6751b9;
-    padding: 2.5rem;
-    text-align: center;
-    background: rgba(22, 17, 47, 0.398);
-    backdrop-filter: blur(1rem);
-    --webkit-backdrop-filter: blur(1rem);
-    position: relative;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    align-content: center;
+  border-radius: 0.65rem;
+  border: 1.5px solid #6751b9;
+  padding: 2.5rem;
+  text-align: center;
+  background: rgba(22, 17, 47, 0.398);
+  backdrop-filter: blur(1rem);
+  --webkit-backdrop-filter: blur(1rem);
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-content: center;
 
-    &:hover, &:active {
-        background: linear-gradient(180deg, #aa94fe 0%, #7c5fe6 100%);
-    }
+  &:hover,
+  &:active {
+    background: linear-gradient(180deg, #aa94fe 0%, #7c5fe6 100%);
+  }
 }
 
 .skillImg {
-    width: 2.4rem;
-    height: 3rem;
-    height: auto;
-    object-fit: contain;
-    color: #a188ff;
+  width: 2.4rem;
+  height: 3rem;
+  height: auto;
+  object-fit: contain;
+  color: #a188ff;
 }
 
 .skills-card span {
-    font-size: 1.3rem;
-    font-weight: 500;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 .skill-icon {
-    width: 4rem;
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #2a2252;
-    border-radius: 0.65rem;
-    border: 1px solid #6852ba;
-    position: absolute;
-    top: -1rem;
-    left: -1rem;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2a2252;
+  border-radius: 0.65rem;
+  border: 1px solid #6852ba;
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
 }
 
 @media screen and (max-width: 1025px) {
-    .skills-card {
-        padding: 2rem;
-    }
+  .skills-card {
+    padding: 2rem;
+  }
 
-    .skills-card span {
-        font-size: 1rem;
-    }
+  .skills-card span {
+    font-size: 1rem;
+  }
 
-    .skill-icon {
-        width: 3rem;
-        height: 3rem;
-    }
+  .skill-icon {
+    width: 3rem;
+    height: 3rem;
+  }
 
-    .skillImg {
-        width: 1.8rem;
-    }
+  .skillImg {
+    width: 1.8rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .skills-card span {
-        font-size: 0.9rem;
-    }
+  .skills-card span {
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (max-width: 376px) {
-    .skills-card span {
-        font-size: 0.6rem;
-    }
+  .skills-card span {
+    font-size: 0.6rem;
+  }
 
-    .skills-card {
-        width: 120px;
-    }
+  .skills-card {
+    width: 120px;
+  }
 }

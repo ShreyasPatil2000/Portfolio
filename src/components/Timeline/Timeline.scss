@@ -1,0 +1,32 @@
+.timeline-container .heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.timelines {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  flex: 1;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .timelines {
+    gap: 5rem;
+  }
+  .timeline-container .heading {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .timelines {
+    gap: 2rem;
+  }
+  .timeline-container .heading {
+    text-align: center;
+  }
+}
