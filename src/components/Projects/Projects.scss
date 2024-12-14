@@ -9,6 +9,7 @@ $color1: #6751b9;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .arrow-left,
@@ -67,11 +68,5 @@ $color1: #6751b9;
 
   .arrow-right {
     right: -1rem;
-  }
-}
-
-@media screen and (max-width: 426px) {
-  .project-container h5 {
-    text-align: center;
   }
 }

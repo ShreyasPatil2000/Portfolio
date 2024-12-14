@@ -58,17 +58,17 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             </Link>
           </li>
           <li>
-              <Link
-                to="timeline"
-                smooth={true}
-                duration={500}
-                className="menu-item"
-                title="timeline"
-                offset={-120}
-              >
-                Timeline
-              </Link>
-            </li>
+            <Link
+              to="timeline"
+              smooth={true}
+              duration={500}
+              className="menu-item"
+              title="timeline"
+              offset={-120}
+            >
+              Timeline
+            </Link>
+          </li>
           <li>
             <Link
               to="projects"
@@ -80,6 +80,18 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               offset={-120}
             >
               Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="hobbies"
+              smooth={true}
+              duration={500}
+              className="menu-item"
+              title="hobbies"
+              offset={-120}
+            >
+              Hobbies
             </Link>
           </li>
           <li>

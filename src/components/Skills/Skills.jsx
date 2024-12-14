@@ -10,7 +10,7 @@ const Skills = () => {
 
   return (
     <section className="skills-container">
-      <h3>Technical Proficieny</h3>
+      <h3>Technical Proficiency</h3>
       <div className="skills-content">
         <div className="skills">
           {SKILLS.map((item) => (

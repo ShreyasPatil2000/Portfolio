@@ -1,7 +1,8 @@
-.timeline-container .heading {
+.timeline-container .timeline-heading {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .timelines {
@@ -25,8 +26,5 @@
 @media screen and (max-width: 426px) {
   .timelines {
     gap: 2rem;
-  }
-  .timeline-container .heading {
-    text-align: center;
   }
 }

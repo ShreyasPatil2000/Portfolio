@@ -10,7 +10,7 @@ const Timeline = () => {
 
   return (
     <section className="timeline-container">
-      <h3 className="heading">Timeline</h3>
+      <h3 className="timeline-heading">Timeline</h3>
       <div className="timeline-content">
         <div className="timelines">
           {TIMELINE.map((item) => (

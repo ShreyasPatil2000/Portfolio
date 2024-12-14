@@ -81,6 +81,18 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                to="hobbies"
+                smooth={true}
+                duration={500}
+                className="menu-item"
+                title="hobbies"
+                offset={-120}
+              >
+                Hobbies
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="contact"
                 smooth={true}
                 duration={500}

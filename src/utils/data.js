@@ -1,4 +1,7 @@
-import { FaCode, FaTools, FaDatabase, FaProjectDiagram } from "react-icons/fa";
+import { FaCode, FaTools, FaDatabase, FaProjectDiagram, FaGamepad, FaBook, FaTheaterMasks } from "react-icons/fa";
+import { MdTravelExplore } from "react-icons/md";
+import { BiCameraMovie } from "react-icons/bi";
+import { GiCricketBat } from "react-icons/gi";
 
 export const SKILLS = [
   {
@@ -190,4 +193,48 @@ export const TIMELINE = [
       },
     ],
   },
+];
+
+export const HOBBIES = [
+  {
+    id: 1,
+    title: "Travelling",
+    icon: MdTravelExplore,
+    details:
+      "I enjoy traveling to new places and exploring museums, natural wonders of the world, and locations of significant cultural importance. Recently, I visited the National Firearms Museum, which showcases a fascinating collection of historical and modern firearms, the breathtaking Niagara Falls with its majestic cascades, and the tranquil Botanical Gardens in Washington, known for their stunning array of plants and serene atmosphere.",
+  },
+  {
+    id: 2,
+    title: "Gaming",
+    icon: FaGamepad,
+    details:
+      "I enjoy playing video games such as Warframe, Call of Duty, and Star Wars: The Old Republic. While I appreciate the fast-paced action and strategy of FPS games, I have a stronger preference for RPGs. RPGs offer a deeper connection through their rich lore, intricate storytelling, and expansive open-world exploration, allowing me to immerse myself in their worlds and uncover their mysteries at my own pace.",
+  },
+  {
+    id: 3,
+    title: "Movies",
+    icon: BiCameraMovie,
+    details:
+      "I love watching movies that transport me to imaginative worlds and tell captivating stories. Whether it’s the action-packed Marvel Cinematic Universe, Mission Impossible Series, or Lord of the Rings Fandom, I enjoy exploring diverse genres and narratives. These experiences often inspire me with their creativity and storytelling depth.",
+  },
+  {
+    id: 4,
+    title: "Cricket",
+    icon: GiCricketBat,
+    details:
+      "Cricket has been a sport close to my heart for years. I enjoy watching international matches and cheering for Team India, as well as playing friendly games with friends. The combination of strategy, teamwork, and skill in cricket makes it an exhilarating sport, and I admire the dedication and sportsmanship displayed by professional players.",
+  },
+  {
+    id: 5,
+    title: "Fanfiction",
+    icon: FaBook,
+    details:
+      "Reading fanfiction is a creative outlet for me that allows me to expand upon the universes of my favorite books, movies, and TV shows. I enjoy exploring 'what-if' scenarios, imagining alternate endings, or delving deeper into the lives of characters I love. It's a way to engage with stories on a personal level and connect with a community of like-minded fans. I have read fanfiction about ASOIAF, Naruto, Harry Potter, Black Clover and more.",
+  },
+  {
+    id: 6,
+    title: "Anime & Manga",
+    icon: FaTheaterMasks,
+    details: "I like to watch anime and read their respective manga issues such as One Piece, Blue Lock and heartwarming Studio Ghibli films, or thought-provoking anime series like Attack on Titan or Death Note.",
+  }
 ];

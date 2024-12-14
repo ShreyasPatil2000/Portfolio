@@ -12,20 +12,20 @@ const Contact = () => {
           <ContactCard
             icon={FaEnvelope}
             text="shreyas.patil20000@gmail.com"
-            link="mailto:shreyas.patil20000@gmail.com" // No link for email
+            link="mailto:shreyas.patil20000@gmail.com"
           />
         </div>
         <div style={{ flex: 1 }}>
           <ContactCard
             icon={FaGithub}
-            text="github.com/RaydenDarkus/"
+            text="Github/RaydenDarkus"
             link="https://github.com/RaydenDarkus"
           />
         </div>
         <div style={{ flex: 1 }}>
           <ContactCard
             icon={FaLinkedin}
-            text="linkedin.com/in/shreyaspatil3524/"
+            text="LinkedIn/shreyaspatil3524"
             link="https://www.linkedin.com/in/shreyaspatil3524/"
           />
         </div>

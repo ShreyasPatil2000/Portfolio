@@ -3,9 +3,10 @@ import LinkedInLogo from "../../assets/LI-In-Bug.png";
 import GithubLogo from "../../assets/github-mark-white.png";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="footer">
-      &copy; RaydenDarkus, have fun Coding!
+      &copy; {currentYear} RaydenDarkus, have fun Coding!
       <div className="footer-links">
         <a
           href="https://www.linkedin.com/in/shreyaspatil3524/"

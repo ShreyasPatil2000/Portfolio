@@ -5,10 +5,12 @@
 
 .timeline-link {
   text-decoration: none;
+  color: #6751b9;
   margin-top: 0.25rem;
   margin-left: 0.4rem;
 
   :hover {
+    color: rgba(103, 81, 185, 0.5);;
     width: 1.2rem;
     height: 1.2rem;
   }

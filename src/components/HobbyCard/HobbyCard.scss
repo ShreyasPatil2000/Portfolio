@@ -1,0 +1,66 @@
+.hobby-card {
+    flex: 1 1 calc(33.33% - 2rem); 
+    max-width: 300px; 
+    min-width: 250px; 
+    border: 2px solid #6751b9;
+    background: #130f2a;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05); 
+    }
+  }
+  
+  .hobby-image {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .hobby-image-file {
+      font-size: 3rem; 
+      color: #6751b9; 
+    }
+  }
+  
+  .hobby-text {
+    h5 {
+      font-size: 1.2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid #6751b9;
+    }
+  
+    p {
+      font-size: 0.9rem;
+      margin: 0.5rem auto;
+      text-align: justify; 
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hobbies-content {
+      gap: 1.5rem;
+    }
+  
+    .hobby-card {
+      flex: 1 1 calc(50% - 2rem); // Two cards per row
+    }
+  }
+  
+  @media screen and (max-width: 426px) {
+    .hobbies-content {
+      gap: 1rem;
+    }
+  
+    .hobby-card {
+      flex: 1 1 calc(100% - 2rem); // One card per row
+    }
+  
+    .hobby-image .hobby-image-file {
+      font-size: 2.5rem;
+    }
+  }
+  

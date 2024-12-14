@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import "./TimelineChart.scss";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -7,8 +6,8 @@ import {
 import { FaSchool } from "react-icons/fa6";
 import { BiBuilding } from "react-icons/bi";
 import { FaLink } from "react-icons/fa";
-
 import "react-vertical-timeline-component/style.min.css";
+import "./TimelineChart.scss";
 
 const TimelineChart = ({ title, details }) => {
   const iconStyles = { background: "#3d3072" };

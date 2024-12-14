@@ -10,8 +10,8 @@ const Hero = () => {
         <div className="hero-content">
           <h2>Building Applications that inspires others</h2>
           <p>
-            Welcome to My Website, I am Shreyas Patil, a passionate FullStack
-            Web Developer | Transforming Ideas into Aesthetic and Visually
+            Welcome to My Website, I am Shreyas Patil, a passionate Front-End
+            Developer at Dream Studio | Transforming Ideas into Aesthetic and Visually
             Stunning Solutions
           </p>
         </div>

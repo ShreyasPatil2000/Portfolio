@@ -29,6 +29,7 @@
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 3.5rem;
+    text-align: center;
 }
 
 .skills-content {
@@ -82,11 +83,5 @@
 @media screen and (max-width:600px) {
     .skills-container {
         padding: 0;
-    }
-}
-
-@media screen and (max-width: 426px) {
-    .skills-container h3 {
-        text-align: center;
     }
 }

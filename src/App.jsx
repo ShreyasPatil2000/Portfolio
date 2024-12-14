@@ -11,6 +11,7 @@ import Timeline from "./components/Timeline/Timeline";
 import { Element } from "react-scroll";
 import { motion, useScroll, useSpring, useInView } from "framer-motion";
 import UpButton from "./components/UpButton/UpButton";
+import Hobbies from "./components/Hobbies/Hobbies";
 
 function Section({ children }) {
   const ref = useRef(null);
@@ -66,6 +67,11 @@ function App() {
         <Section>
           <Element name="projects">
             <Projects />
+          </Element>
+        </Section>
+        <Section>
+          <Element name="hobbies">
+            <Hobbies />
           </Element>
         </Section>
         <Section>
