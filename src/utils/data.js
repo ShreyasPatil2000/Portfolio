@@ -136,7 +136,7 @@ export const TIMELINE = [
     details: [
       {
         id: 1,
-        name: "Front-End Developer",
+        name: "Front-End Developer (Volunteer)",
         company: "Dream Studio",
         link: "https://dreamstudio.com/home/",
         location: "Atlanta, Georgia (Remote)",
@@ -144,7 +144,7 @@ export const TIMELINE = [
           "I am collaborating with cross-functional teams with designers and backend developers to facilitate user-friendly and responsive websites across multiple projects",
           "My role involves integrating widgets and implementing various functionalities across web pages for multiple projects using APIs.",
           "My responsibilities also include debugging, creating user interfaces, collaborating on codebases, and managing version control using Git and GitHub.",
-          "I have mostly used React.js, Swiper.js, SASS, HTML, JavaScript, and handled version control using Git and Github.",
+          "I have mostly used React.js, Swiper.js, SASS, HTML, CSS and JavaScript.",
         ],
         date: "August 2024 - Present",
       },
