@@ -1,4 +1,12 @@
-import { FaCode, FaTools, FaDatabase, FaProjectDiagram, FaGamepad, FaBook, FaTheaterMasks } from "react-icons/fa";
+import {
+  FaCode,
+  FaTools,
+  FaDatabase,
+  FaProjectDiagram,
+  FaGamepad,
+  FaBook,
+  FaTheaterMasks,
+} from "react-icons/fa";
 import { MdTravelExplore } from "react-icons/md";
 import { BiCameraMovie } from "react-icons/bi";
 import { GiCricketBat } from "react-icons/gi";
@@ -134,12 +142,29 @@ export const TIMELINE = [
         location: "Atlanta, Georgia (Remote)",
         description: [
           "I am collaborating with cross-functional teams with designers and backend developers to facilitate user-friendly and responsive websites across multiple projects",
+          "My role involves integrating widgets and implementing various functionalities across web pages for multiple projects using APIs.",
+          "My responsibilities also include debugging, creating user interfaces, collaborating on codebases, and managing version control using Git and GitHub.",
           "I have mostly used React.js, Swiper.js, SASS, HTML, JavaScript, and handled version control using Git and Github.",
         ],
         date: "August 2024 - Present",
       },
       {
         id: 2,
+        name: "Barista",
+        company: "Starbucks",
+        link: "https://www.google.com/maps/place/Starbucks/@38.8337115,-77.3071381,89m/data=!3m2!1e3!5s0x89b64e8a81ee4365:0x69bab77b2aa32c46!4m6!3m5!1s0x89b64ef569cc06e5:0x3340294b75936dc0!8m2!3d38.833767!4d-77.306958!16s%2Fg%2F1tfbp6hk?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D",
+        location: "Fairfax, Virginia",
+        description: [
+          "Delivered exceptional customer service by preparing high-quality beverages and ensuring a welcoming environment for customers.",
+          "Managed multiple orders efficiently during peak hours, demonstrating strong time management and multitasking skills.",
+          "Maintained cleanliness and organization of the workspace, adhering to health and safety standards.",
+          "Collaborated with team members to ensure smooth operations and a positive customer experience.",
+          "Developed strong interpersonal and communication skills while interacting with a diverse clientele.",
+        ],
+        date: "August 2023 - May 2024",
+      },
+      {
+        id: 3,
         name: "Web Developer Intern",
         company: "The Sparks Foundation",
         link: "https://thesparksfoundationsingapore.org/",
@@ -235,6 +260,7 @@ export const HOBBIES = [
     id: 6,
     title: "Anime & Manga",
     icon: FaTheaterMasks,
-    details: "I like to watch anime and read their respective manga issues such as One Piece, Blue Lock and heartwarming Studio Ghibli films, or thought-provoking anime series like Attack on Titan or Death Note.",
-  }
+    details:
+      "I like to watch anime and read their respective manga issues such as One Piece, Blue Lock and heartwarming Studio Ghibli films, or thought-provoking anime series like Attack on Titan or Death Note.",
+  },
 ];
