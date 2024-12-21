@@ -150,6 +150,20 @@ export const TIMELINE = [
       },
       {
         id: 2,
+        name: "AI Trainer",
+        company: "DataAnnotation",
+        link: "https://www.dataannotation.tech/",
+        location: "Fairfax, Virginia (Remote)",
+        description: [
+          "Leveraged Reinforcement Learning from Human Feedback (RLHF) to train machine learning models while ensuring adherence to legal and ethical standards, including safety and truthfulness.",
+          "Conducted high-quality data labeling and annotated text, image, video, and audio data, adapting to evolving project requirements and tools. ",
+          "Reviewed GitHub commits to analyze code changes, utilized Python for data visualization, and trained AI model to execute API calls. ",
+          "Performed prompt engineering and quality assurance for analysts' work, contributing to improving AI systems.",
+        ],
+        date: "December 2024 - Present",
+      },
+      {
+        id: 3,
         name: "Barista",
         company: "Starbucks",
         link: "https://www.google.com/maps/place/Starbucks/@38.8337115,-77.3071381,89m/data=!3m2!1e3!5s0x89b64e8a81ee4365:0x69bab77b2aa32c46!4m6!3m5!1s0x89b64ef569cc06e5:0x3340294b75936dc0!8m2!3d38.833767!4d-77.306958!16s%2Fg%2F1tfbp6hk?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D",
@@ -164,7 +178,7 @@ export const TIMELINE = [
         date: "August 2023 - May 2024",
       },
       {
-        id: 3,
+        id: 4,
         name: "Web Developer Intern",
         company: "The Sparks Foundation",
         link: "https://thesparksfoundationsingapore.org/",

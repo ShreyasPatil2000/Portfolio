@@ -19,3 +19,24 @@
 .timeline-date {
   color: white;
 }
+
+.timeline-points {
+  font-size: 1rem !important;
+  margin-left: 0.2rem;
+  color: #6751b9;
+}
+
+.timeline-description {
+  font-size: 0.85rem !important;
+  color: white;
+}
+
+@media screen and (max-width: 1170px) {
+  .timeline-points {
+    margin-left: 0.6rem;
+  }
+
+  .timeline-description {
+    font-size: 0.8rem !important;
+  }
+}

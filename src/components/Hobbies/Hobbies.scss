@@ -11,9 +11,15 @@
 
 .hobbies-content {
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media screen and (max-width: 1335px) {
+  .hobbies-content {
+    gap: 2rem;
+  }
 }
 
 @media screen and (max-width: 426px) {

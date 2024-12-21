@@ -29,20 +29,31 @@ const TimelineChart = ({ title, details }) => {
         >
           <div className="timeline-main">
             <h3 className="vertical-timeline-element-title">{item.name}</h3>
-            <a href={item.link} target="_blank" rel="noopener noreferrer" className="timeline-link">
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="timeline-link"
+            >
               <FaLink />
             </a>
           </div>
           <h4 className="vertical-timeline-element-subtitle">
             {title === "Experience" ? item.company : item.education}
           </h4>
-          <p>{item.location}</p>
-          {title === "Education" && <p>{item.score}</p>}
-          <span>
-            {item.description.map((sentence, index) => (
-              <p key={index}>{sentence}</p>
-            ))}
-          </span>
+          <div className="timeline-details">
+            <p>{item.location}</p>
+            {title === "Education" && (
+              <p>{item.score}</p>
+            )}
+            <ul>
+              {item.description.map((sentence, index) => (
+                <li key={index} className="timeline-points">
+                  <p className="timeline-description">{sentence}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
         </VerticalTimelineElement>
       ))}
     </VerticalTimeline>
