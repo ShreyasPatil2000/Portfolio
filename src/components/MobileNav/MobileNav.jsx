@@ -21,7 +21,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
   return (
     <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
       <div className="mobile-menu-container" onClick={(e) => e.stopPropagation()}>
-        <a href="/Portfolio/">
+        <a href="/Portfolio/" aria-label="Home">
           <img src={logo} className="logo" alt="logo" />
         </a>
         <ul>

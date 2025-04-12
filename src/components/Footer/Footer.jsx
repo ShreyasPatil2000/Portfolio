@@ -8,11 +8,11 @@ const Footer = () => {
     <div className="footer">
       &copy; {currentYear} RaydenDarkus, have fun Coding!
       <div className="footer-links">
-        <a href="https://www.linkedin.com/in/shreyaspatil3524/" className="footer-link" target="_blank">
+        <a href="https://www.linkedin.com/in/shreyaspatil3524/" className="footer-link" target="_blank" aria-label="Linkedin Link">
           <img src={LinkedInLogo} alt="LinkedIn Logo" className="footer-icon" width="25" height="25" title="LinkedIn" />
         </a>
         <a href="https://github.com/RaydenDarkus" className="footer-link" target="_blank">
-          <img src={GithubLogo} alt="Github Logo" className="footer-icon" width="25" height="25" title="Github" />
+          <img src={GithubLogo} alt="Github Logo" className="footer-icon" width="25" height="25" title="Github" aria-label="Github Link"/>
         </a>
       </div>
     </div>

@@ -1,7 +1,5 @@
 import "./Hero.scss";
 import UserImg from "../../assets/ShreyasPatilPhoto.webp";
-import { FaHtml5, FaCss3Alt, FaNodeJs, FaReact } from "react-icons/fa";
-import { DiJavascript1 } from "react-icons/di";
 
 const Hero = () => {
   return (
