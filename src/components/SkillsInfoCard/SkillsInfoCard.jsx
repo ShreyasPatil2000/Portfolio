@@ -14,10 +14,7 @@ const SkillsInfoCard = ({ heading, skills }) => {
               <p className="percentage">{item.percentage}</p>
             </div>
             <div className="skill-progress-bg">
-              <div
-                className="skill-progress"
-                style={{ width: item.percentage }}
-              />
+              <div className="skill-progress" style={{ width: item.percentage }} />
             </div>
           </React.Fragment>
         ))}

@@ -29,18 +29,12 @@ const Projects = () => {
     <section className="project-container">
       <h5>Projects</h5>
       <div className="project-content">
-        <div
-          className="arrow-right"
-          onClick={() => sliderRef.current.slickNext()}
-        >
+        <div className="arrow-right" onClick={() => sliderRef.current.slickNext()}>
           <span className="material-symbols-outlined">
             <FaChevronRight />
           </span>
         </div>
-        <div
-          className="arrow-left"
-          onClick={() => sliderRef.current.slickPrev()}
-        >
+        <div className="arrow-left" onClick={() => sliderRef.current.slickPrev()}>
           <span className="material-symbols-outlined">
             <FaChevronLeft />
           </span>

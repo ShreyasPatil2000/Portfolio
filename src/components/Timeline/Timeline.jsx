@@ -23,10 +23,7 @@ const Timeline = () => {
           ))}
         </div>
         <div className="timeline-info">
-          <TimelineChart
-            title={selectTimeline.title}
-            details={selectTimeline.details}
-          />
+          <TimelineChart title={selectTimeline.title} details={selectTimeline.details} />
         </div>
       </div>
     </section>

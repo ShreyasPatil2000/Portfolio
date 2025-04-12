@@ -5,12 +5,7 @@ const ContactCard = ({ icon: Icon, text, link }) => {
   return (
     <div className="contact-details-card">
       <div className="icon">
-        <a
-          href={link}
-          className="contact-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={link} className="contact-link" target="_blank" rel="noopener noreferrer">
           <Icon className="contact-icon" />
         </a>
       </div>

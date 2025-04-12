@@ -4,7 +4,7 @@ const HobbyCard = ({ title, icon: Icon, details }) => {
   return (
     <div className="hobby-card">
       <div className="hobby-image">
-        <Icon className="hobby-image-file"/>
+        <Icon className="hobby-image-file" />
       </div>
       <div className="hobby-text">
         <h5>{title}</h5>

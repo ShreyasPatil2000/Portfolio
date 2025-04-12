@@ -1,12 +1,4 @@
-import {
-  FaCode,
-  FaTools,
-  FaDatabase,
-  FaProjectDiagram,
-  FaGamepad,
-  FaBook,
-  FaTheaterMasks,
-} from "react-icons/fa";
+import { FaCode, FaTools, FaDatabase, FaProjectDiagram, FaGamepad, FaBook, FaTheaterMasks } from "react-icons/fa";
 import { MdTravelExplore } from "react-icons/md";
 import { BiCameraMovie } from "react-icons/bi";
 import { GiCricketBat } from "react-icons/gi";
@@ -141,10 +133,10 @@ export const TIMELINE = [
         link: "https://dreamstudio.com/home/",
         location: "Atlanta, Georgia (Remote)",
         description: [
-          "I am collaborating with cross-functional teams with designers and backend developers to facilitate user-friendly and responsive websites across multiple projects",
-          "My role involves integrating widgets and implementing various functionalities across web pages for multiple projects using APIs.",
-          "My responsibilities also include debugging, creating user interfaces, collaborating on codebases, and managing version control using Git and GitHub.",
-          "I have mostly used React.js, Swiper.js, SASS, HTML, CSS and JavaScript.",
+          "Developed responsive and user-friendly websites by adding new features and refining existing code to ensure a seamless experience across all devices.",
+          "Improved SEO performance by applying best practices and enhancing accessibility, leading to a 10% increase in site speed.",
+          "Collaborated with designers and backend developers to transform complex business requirements into intuitive user interfaces, contributing to 4+ repositories.",
+          "Utilized React.js, SASS, HTML, CSS, and JavaScript to build visually appealing web solutions, using Git for version control and collaboration with 5+ team members.",
         ],
         date: "August 2024 - Present",
       },
@@ -155,10 +147,10 @@ export const TIMELINE = [
         link: "https://www.dataannotation.tech/",
         location: "Fairfax, Virginia (Remote)",
         description: [
-          "Leveraged Reinforcement Learning from Human Feedback (RLHF) to train machine learning models while ensuring adherence to legal and ethical standards, including safety and truthfulness.",
-          "Conducted high-quality data labeling and annotated text, image, video, and audio data, adapting to evolving project requirements and tools. ",
-          "Reviewed GitHub commits to analyze code changes, utilized Python for data visualization, and trained AI model to execute API calls. ",
-          "Performed prompt engineering and quality assurance for analysts' work, contributing to improving AI systems.",
+          "Leveraged Reinforcement Learning from Human Feedback to train machine learning models while ensuring adherence to legal and ethical standards.",
+          "Labeled and annotated 500+ data samples across multiple formats: code, text, images, videos, and audio. ",
+          "Conducted front-end code reviews focusing on UI/UX design, ensuring responsiveness and adherence to best practices.",
+          "Reviewed Github commits and trained AI models to execute API calls effectively.",
         ],
         date: "December 2024 - Present",
       },
@@ -184,8 +176,8 @@ export const TIMELINE = [
         link: "https://thesparksfoundationsingapore.org/",
         location: "Thane, India (Remote)",
         description: [
-          "I created low and high fidelity wireframes using Figma and utilized PHP and MySQL to handle user authentication, webpage design, and database management. ",
-          "I also optimized database performance by refining SQL queries, and reducing server response times.",
+          "Created wireframes and prototypes using Figma, translating business requirements into user-friendly interfaces. ",
+          "Utilized PHP and MySQL to handle user registration, login, webpage design, and database management.",
         ],
         date: "July 2021 - August 2021",
       },
@@ -211,8 +203,8 @@ export const TIMELINE = [
         name: "University of Mumbai - RAIT",
         education: "Bachelor's in Computer Engineering",
         link: "https://dypatil.edu/schools/ramrao-adik-institute-of-technology",
-        score: "CGPA: 9.02",
-        location: "Navi Mumbai, India",
+        score: "GPA: 3.61",
+        location: "Mumbai, India",
         description: [
           "Relevant Courses: Object Oriented Programming, Database Management Systems, Machine Learning, Web Design, Data Mining",
         ],

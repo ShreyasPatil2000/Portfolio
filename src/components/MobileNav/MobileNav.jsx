@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "./MobileNav.scss";
-import logo from "../../assets/logo1.png";
+import logo from "../../assets/logo1.webp";
 import { FaDownload } from "react-icons/fa";
 import { Link } from "react-scroll";
 import resumePDF from "../../assets/ShreyasPatilResume.pdf";
@@ -19,14 +19,8 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
   };
 
   return (
-    <div
-      className={`mobile-menu ${isOpen ? "active" : ""}`}
-      onClick={toggleMenu}
-    >
-      <div
-        className="mobile-menu-container"
-        onClick={(e) => e.stopPropagation()}
-      >
+    <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
+      <div className="mobile-menu-container" onClick={(e) => e.stopPropagation()}>
         <a href="/Portfolio/">
           <img src={logo} className="logo" alt="logo" />
         </a>
@@ -58,14 +52,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             </Link>
           </li>
           <li>
-            <Link
-              to="timeline"
-              smooth={true}
-              duration={500}
-              className="menu-item"
-              title="timeline"
-              offset={-120}
-            >
+            <Link to="timeline" smooth={true} duration={500} className="menu-item" title="timeline" offset={-120}>
               Timeline
             </Link>
           </li>
@@ -83,14 +70,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             </Link>
           </li>
           <li>
-            <Link
-              to="hobbies"
-              smooth={true}
-              duration={500}
-              className="menu-item"
-              title="hobbies"
-              offset={-120}
-            >
+            <Link to="hobbies" smooth={true} duration={500} className="menu-item" title="hobbies" offset={-120}>
               Hobbies
             </Link>
           </li>

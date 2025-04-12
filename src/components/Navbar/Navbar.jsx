@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Navbar.scss";
-import logo from "../../assets/logo1.png";
+import logo from "../../assets/logo1.webp";
 import { FaBars, FaTimes, FaDownload } from "react-icons/fa";
 import MobileNav from "../MobileNav/MobileNav";
 import { Link } from "react-scroll";
@@ -32,74 +32,32 @@ const Navbar = () => {
           </a>
           <ul>
             <li>
-              <Link
-                to="hero"
-                smooth={true}
-                duration={500}
-                className="menu-item"
-                title="Home"
-                offset={-100}
-              >
+              <Link to="hero" smooth={true} duration={500} className="menu-item" title="Home" offset={-100}>
                 Home
               </Link>
             </li>
             <li>
-              <Link
-                to="skills"
-                smooth={true}
-                duration={500}
-                className="menu-item"
-                title="skills"
-                offset={-120}
-              >
+              <Link to="skills" smooth={true} duration={500} className="menu-item" title="skills" offset={-120}>
                 Skills
               </Link>
             </li>
             <li>
-              <Link
-                to="timeline"
-                smooth={true}
-                duration={500}
-                className="menu-item"
-                title="timeline"
-                offset={-120}
-              >
+              <Link to="timeline" smooth={true} duration={500} className="menu-item" title="timeline" offset={-120}>
                 Timeline
               </Link>
             </li>
             <li>
-              <Link
-                to="projects"
-                smooth={true}
-                duration={500}
-                className="menu-item"
-                title="projects"
-                offset={-120}
-              >
+              <Link to="projects" smooth={true} duration={500} className="menu-item" title="projects" offset={-120}>
                 Projects
               </Link>
             </li>
             <li>
-              <Link
-                to="hobbies"
-                smooth={true}
-                duration={500}
-                className="menu-item"
-                title="hobbies"
-                offset={-120}
-              >
+              <Link to="hobbies" smooth={true} duration={500} className="menu-item" title="hobbies" offset={-120}>
                 Hobbies
               </Link>
             </li>
             <li>
-              <Link
-                to="contact"
-                smooth={true}
-                duration={500}
-                className="menu-item"
-                title="contact"
-                offset={-120}
-              >
+              <Link to="contact" smooth={true} duration={500} className="menu-item" title="contact" offset={-120}>
                 Contact
               </Link>
             </li>

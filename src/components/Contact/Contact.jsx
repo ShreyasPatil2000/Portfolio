@@ -16,11 +16,7 @@ const Contact = () => {
           />
         </div>
         <div style={{ flex: 1 }}>
-          <ContactCard
-            icon={FaGithub}
-            text="Github/RaydenDarkus"
-            link="https://github.com/RaydenDarkus"
-          />
+          <ContactCard icon={FaGithub} text="Github/RaydenDarkus" link="https://github.com/RaydenDarkus" />
         </div>
         <div style={{ flex: 1 }}>
           <ContactCard

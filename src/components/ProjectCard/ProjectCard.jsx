@@ -8,12 +8,7 @@ const ProjectCard = ({ details }) => {
       <h6>
         {details.title} | {details.skills}
       </h6>
-      <a
-        className="project-link"
-        href={details.link}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a className="project-link" href={details.link} target="_blank" rel="noopener noreferrer">
         View on Github <FaExternalLinkAlt />
       </a>
       <ul className="summary-list">
