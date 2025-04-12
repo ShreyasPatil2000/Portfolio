@@ -8,7 +8,7 @@ $color1: #6751b9;
   backdrop-filter: blur(1rem);
 }
 
-.skills-info-card h6 {
+.skills-info-card h5 {
   font-size: 1.2rem;
   font-weight: 500;
   padding: 0.8rem 2rem;
@@ -56,7 +56,7 @@ $color1: #6751b9;
 }
 
 @media screen and (max-width: 1025px) {
-  .skills-info-card h6 {
+  .skills-info-card h5 {
     font-size: 1.1rem;
   }
 

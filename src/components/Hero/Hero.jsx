@@ -18,23 +18,6 @@ const Hero = () => {
           <div className="image-container">
             <img className="userImg" src={UserImg} alt="img" />
           </div>
-          <div>
-            <div className="tech-icon">
-              <FaHtml5 className="icon html" />
-            </div>
-            <div className="tech-icon">
-              <FaCss3Alt className="icon css" />
-            </div>
-            <div className="tech-icon">
-              <DiJavascript1 className="icon js" />
-            </div>
-            <div className="tech-icon">
-              <FaNodeJs className="icon node" />
-            </div>
-            <div className="tech-icon">
-              <FaReact className="icon react" />
-            </div>
-          </div>
         </div>
       </section>
     </>

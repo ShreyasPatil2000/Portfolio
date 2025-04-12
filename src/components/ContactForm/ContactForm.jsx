@@ -103,7 +103,7 @@ const ContactForm = () => {
           onChange={handleTextareaChange}
           required
         ></textarea>
-        <button type="submit">SEND</button>
+        <button id="submit-button" type="submit" aria-label="Send to email">SEND</button>
       </form>
     </div>
   );

@@ -3,30 +3,11 @@
 // background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 $shadow_color: rgba(0, 0, 0, 0.5);
 
-.icon.html {
-  color: #e34c26; /* HTML5 color */
-}
-
-.icon.css {
-  color: #264de4; /* CSS3 color */
-}
-
-.icon.js {
-  color: #f0db4f; /* JavaScript color */
-}
-
-.icon.node {
-  color: #68a063; /* Node.js color */
-}
-
-.icon.react {
-  color: #61dafb; /* React color */
-}
-
 .userImg {
   border-radius: 10%;
-  height: 500px;
-  width: 26rem;
+  width: 100%;           /* or set a specific width */
+  height: 500px;  
+  object-fit: cover;
   transition: all 0.3s ease;
 }
 
@@ -90,25 +71,7 @@ $shadow_color: rgba(0, 0, 0, 0.5);
   gap: 2rem;
 }
 
-.tech-icon {
-  width: 5rem;
-  height: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0.65rem;
-  background: rgb(14, 1, 54);
-  border: 1.5px solid #6852ba;
-}
-
-.tech-icon .icon {
-  width: 3rem;
-  height: auto;
-  transition: all 0.3s ease;
-}
-
-.userImg:hover,
-.tech-icon .icon:hover {
+.userImg:hover {
   transform: translateY(-0.5rem);
 }
 
@@ -161,15 +124,6 @@ $shadow_color: rgba(0, 0, 0, 0.5);
   .userImg {
     width: 20rem;
     height: 350px;
-  }
-
-  .tech-icon {
-    width: 4rem;
-    height: 4rem;
-  }
-
-  .tech-icon .icon {
-    width: 2.5rem;
   }
 
   .hero-container::after,
@@ -268,15 +222,6 @@ $shadow_color: rgba(0, 0, 0, 0.5);
     height: 18rem;
   }
 
-  .tech-icon {
-    width: 3.3rem;
-    height: 3.3rem;
-  }
-
-  .tech-icon .icon {
-    width: 2rem;
-  }
-
   .hero-container::after,
   .hero-container::before {
     width: 14rem;
@@ -304,12 +249,5 @@ $shadow_color: rgba(0, 0, 0, 0.5);
   .hero-container::before {
     bottom: 4rem;
     left: 7rem;
-  }
-}
-
-@media screen and (max-width: 340px) {
-  .tech-icon {
-    width: 3rem;
-    height: 3rem;
   }
 }

@@ -87,10 +87,10 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               Contact
             </Link>
           </li>
-          <button className="download-btn" onClick={handleDownload}>
-            <FaDownload size={12} /> &nbsp;Resume
-          </button>
         </ul>
+        <button className="mobile-download-btn download-btn" onClick={handleDownload} aria-label="Download Resume">
+          <FaDownload size={12} /> &nbsp;Resume
+        </button>
       </div>
     </div>
   );

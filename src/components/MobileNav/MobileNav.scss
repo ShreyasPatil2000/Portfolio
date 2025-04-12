@@ -42,6 +42,10 @@ $color1: rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 
+.mobile-download-btn {
+  margin-top: 2rem;
+}
+
 @media screen and (max-width: 769px) {
   .mobile-menu {
     display: block;

@@ -61,11 +61,11 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <button className="download-btn" onClick={handleDownload}>
+          </ul>
+          <button className="download-btn" onClick={handleDownload} aria-label="Download Resume">
               <FaDownload size={12} /> &nbsp;Resume
             </button>
-          </ul>
-          <button className="menu-btn" onClick={toggleMenu}>
+          <button className="menu-btn" onClick={toggleMenu} aria-label="Toggle Menu">
             {openMenu ? <FaTimes /> : <FaBars />}
           </button>
         </div>
