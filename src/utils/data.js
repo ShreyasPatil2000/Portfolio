@@ -55,6 +55,20 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
+    title: "ShoeStack",
+    skills: "Next.js, Kinde, Prisma, Neon, Stripe, Tailwind, Shadcn",
+    summary: [
+      "Built a full-stack E-Commerce shoe store using Next.js 15 with App Router and server components for performance and scalability.",
+      "Implemented secure user authentication and role-based access control using Kinde Auth for login, signup, and admin routes.",
+      "Integrated Stripe for seamless payment processing, handling checkout sessions, webhooks, and order confirmations.",
+      "Managed relational product and user data using Prisma ORM with a Neon Postgres database.",
+      "Used Upstash Redis for fast cart state management, product caching, and real-time inventory updates.",
+      "Designed a responsive UI with dynamic product pages, filtering, sorting, and search functionality.",
+      "Added admin dashboard to manage products, orders, and inventory with CRUD operations.",
+    ],
+    link: "https://github.com/ShreyasPatil2000/e-commerce",
+  },
+  {
     title: "ChatMate",
     skills: "React.js, Node.js, Zustand, Tailwind, Shadcn, MongoDB, Socket.IO",
     summary: [
@@ -62,7 +76,7 @@ export const PROJECTS = [
       "Utilized Express.js and Node.js for the backend, creating robust API endpoints to handle user authentication, file transfer, message storage, and real-time chat functionalities.",
       "Ensured real-time updates and message synchronization, allowing users to communicate instantly, storing and retrieving data efficiently.",
     ],
-    link: "https://github.com/RaydenDarkus/ChatMate",
+    link: "https://github.com/ShreyasPatil2000/ChatMate",
   },
   {
     title: "Connect Four Game",
@@ -71,7 +85,7 @@ export const PROJECTS = [
       "Developed a full-stack Connect Four game in React with secure authentication and CRUD(Create, Read, Update, Delete) operations in the database for different functionalities.",
       "Implemented PBKDF2 algorithm with HMAC_SHA256 to enhance security, utilizing unique salt and slow hashing for data protection.",
     ],
-    link: "https://github.com/RaydenDarkus/Connect4",
+    link: "https://github.com/ShreyasPatil2000/Connect4",
   },
   {
     title: "AidenWorld: Amusement Park",
@@ -80,7 +94,7 @@ export const PROJECTS = [
       "Created a responsive website for an amusement park, featuring a Home Page, Ticket Booking, Merchandise, and Payment.",
       "Implemented a secure login and signup system, seamlessly integrating with MongoDB for efficient data storage and retrieval.",
     ],
-    link: "https://github.com/RaydenDarkus/AmusementPark",
+    link: "https://github.com/ShreyasPatil2000/AmusementPark",
   },
   {
     title: "Fake News Detection",
@@ -90,7 +104,7 @@ export const PROJECTS = [
       "Performed data preprocessing, extraction, cleaning, and exploratory data analysis on the news dataset, to ensure reliable results.",
       "Employed various machine learning algorithms, achieving accuracy rates ranging from 87.04% to 83%.",
     ],
-    link: "https://github.com/RaydenDarkus/Fake-News-Detection",
+    link: "https://github.com/ShreyasPatil2000/Fake-News-Detection",
   },
   {
     title: "Sarcasm Detector Using DynRT",
@@ -100,7 +114,7 @@ export const PROJECTS = [
       "Performed cleaning, preprocessing as well as robustness and multilingual testing with accuracies of 69-73%.",
       "Achieved an accuracy of 93.59% in English and 72-75% accuracy in other languages like Hindi, Spanish, French, and German.",
     ],
-    link: "https://github.com/RaydenDarkus/Sarcasm_Detector_Using_DynRT",
+    link: "https://github.com/ShreyasPatil2000/Sarcasm_Detector_Using_DynRT",
   },
   {
     title: "Online Music Player",
@@ -109,7 +123,7 @@ export const PROJECTS = [
       "Developed a comprehensive music player application enabling users to search, play, and download music in the browser.",
       "Integrated the YouTube API to fetch music data and utilized PHP-cURL for efficient web scraping, ensuring access to a vast library of music content.",
     ],
-    link: "https://github.com/RaydenDarkus/Music_Player-master",
+    link: "https://github.com/ShreyasPatil2000/Music_Player-master",
   },
   {
     title: "Basic Banking System",
@@ -118,7 +132,7 @@ export const PROJECTS = [
       "Established an application to transfer money between users in the database using HTML, CSS, JavaScript, PHP, and MySQL.",
       "Designed and implemented user-friendly activities, including Home, Transfer Money, and Transaction History, enhancing the application's functionality and usability.",
     ],
-    link: "https://github.com/RaydenDarkus/The-Basic-Banking-System",
+    link: "https://github.com/ShreyasPatil2000/The-Basic-Banking-System",
   },
 ];
 
