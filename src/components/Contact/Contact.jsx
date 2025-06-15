@@ -21,7 +21,7 @@ const Contact = () => {
         <div style={{ flex: 1 }}>
           <ContactCard
             icon={FaLinkedin}
-            text="LinkedIn/shreyaspatil3524"
+            text="LinkedIn/shreyas20"
             link="https://www.linkedin.com/in/shreyaspatil3524/"
           />
         </div>

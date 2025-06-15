@@ -146,7 +146,7 @@ export const TIMELINE = [
     details: [
       {
         id: 1,
-        name: "Front-End Developer (Volunteer)",
+        name: "Frontend Developer",
         company: "Dream Studio",
         link: "https://dreamstudio.com/home/",
         location: "Fairfax, Virginia (Remote)",
@@ -161,7 +161,7 @@ export const TIMELINE = [
       },
       {
         id: 2,
-        name: "AI Trainer",
+        name: "AI Data Trainer (part-time)",
         company: "DataAnnotation",
         link: "https://www.dataannotation.tech/",
         location: "Fairfax, Virginia (Remote)",
