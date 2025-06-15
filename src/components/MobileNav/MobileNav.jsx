@@ -3,7 +3,7 @@ import "./MobileNav.scss";
 import logo from "../../assets/logo1.webp";
 import { FaDownload } from "react-icons/fa";
 import { Link } from "react-scroll";
-import resumePDF from "../../assets/ShreyasPatilResume.pdf";
+import resumePDF from "../../assets/Shreyas_Patil_Resume.pdf";
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
   const handleDownload = () => {

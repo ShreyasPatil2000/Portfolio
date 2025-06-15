@@ -8,9 +8,26 @@ const ProjectCard = ({ details }) => {
       <h6>
         {details.title} | {details.skills}
       </h6>
-      <a className="project-link" href={details.link} target="_blank" rel="noopener noreferrer" aria-label="Link to Github Repository">
+      <a
+        className="project-link"
+        href={details.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Link to Github Repository"
+      >
         View on Github <FaExternalLinkAlt />
       </a>
+      {details.live && (
+        <a
+          className="project-link"
+          href={details.live}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Link to Github Repository"
+        >
+          Live Link <FaExternalLinkAlt />
+        </a>
+      )}
       <ul className="summary-list">
         {details.summary.map((item) => (
           <li key={item}>{item}</li>

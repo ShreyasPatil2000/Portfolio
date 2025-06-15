@@ -4,7 +4,7 @@ import logo from "../../assets/logo1.webp";
 import { FaBars, FaTimes, FaDownload } from "react-icons/fa";
 import MobileNav from "../MobileNav/MobileNav";
 import { Link } from "react-scroll";
-import resumePDF from "../../assets/ShreyasPatilResume.pdf";
+import resumePDF from "../../assets/Shreyas_Patil_Resume.pdf";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);

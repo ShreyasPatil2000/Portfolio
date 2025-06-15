@@ -11,10 +11,7 @@ const SkillsInfoCard = ({ heading, skills }) => {
           <React.Fragment key={`skill_${index}`}>
             <div className="skill-info">
               <p>{item.skill}</p>
-              <p className="percentage">{item.percentage}</p>
-            </div>
-            <div className="skill-progress-bg">
-              <div className="skill-progress" style={{ width: item.percentage }} />
+              <img src={item.image} alt="icon image" width={40} height={40}/>
             </div>
           </React.Fragment>
         ))}
